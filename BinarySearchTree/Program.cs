@@ -8,7 +8,9 @@
             binarySearchTree.InsertData(56);
             binarySearchTree.InsertData(30);
             binarySearchTree.InsertData(70);
+            binarySearchTree.InsertData(70);
             binarySearchTree.Display(binarySearchTree.GetRoot());
+            Console.WriteLine("Count Of Element in Binary Search Tree is : " + binarySearchTree.GetSize());
         }
     }
 }
